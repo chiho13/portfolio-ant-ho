@@ -8,9 +8,9 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
+	margin: 10px 5px 5px 5px;
 	vertical-align: top;
-	height: 250px;
+	height: 210px;
 }
 
 .og-grid li > a,
@@ -19,6 +19,7 @@
 	outline: none;
 	display: block;
 	position: relative;
+	height:210px;
 }
 
 .og-grid li.og-expanded > a::after {
@@ -37,7 +38,10 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+/*	background: #ddd;*/
+	background-image: url(../img/exhibitionroad.png);
+	background-position:center;
+	background-size: cover;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -68,7 +72,7 @@
 	width: 100%;
 	top: 50%;
 	height: 1px;
-	background: #888;
+	background: #fff;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -82,7 +86,7 @@
 
 .og-close:hover::before,
 .og-close:hover::after {
-	background: #333;
+	background: #ccc;
 }
 
 .og-fullimg,
@@ -95,7 +99,9 @@
 }
 
 .og-details {
+	color: #fefefe;
 	padding: 0 40px 0 20px;
+	left:15px;
 }
 
 .og-fullimg {
@@ -117,19 +123,19 @@
 
 .og-details p {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 22px;
-	color: #999;
+	
 }
 
 .og-details a {
 	font-weight: 700;
 	font-size: 16px;
-	color: #333;
+	color: #fefefe;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding: 10px 20px;
-	border: 3px solid #333;
+	border: 3px solid #fefefe;
 	display: inline-block;
 	margin: 30px 0 0;
 	outline: none;
@@ -142,8 +148,9 @@
 }
 
 .og-details a:hover {
-	border-color: #999;
-	color: #999;
+	background: rgba(255, 255, 255, 0.2);
+	border-color: #eee;
+	color: #eee;
 }
 
 .og-loading {
