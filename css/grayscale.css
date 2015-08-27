@@ -80,6 +80,10 @@ a:focus {
     color: #bbb;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 
 
 .light {
@@ -991,8 +995,9 @@ th, td {
   background-color: #133860;
   border: 2px solid #fff;
   color: #fff;
-  width: 145px;
-  margin-top:20px;
+  width: 155px;
+  margin-top:5px;
+  margin-bottom: 3px;
 
 }
 
@@ -1005,6 +1010,12 @@ border: 2px solid #fff;
   padding:none;
   box-shadow: none;
 /*  text-shadow: 1px 1px #bbb;*/
+}
+
+.btn-connect span {
+  position: relative;
+  top:-1px;
+  margin-right: 5px;
 }
 
 
@@ -1131,9 +1142,9 @@ border: 2px solid #fff;
     }*/
 
    /* .container {
-        text-align:center;
-    }
-*/
+       width:90%;
+    }*/
+
 
 
 }

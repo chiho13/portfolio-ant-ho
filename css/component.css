@@ -13,6 +13,10 @@
 	height: 210px;
 }
 
+.og-grid li > a:hover {
+	opacity:0.8;
+}
+
 .og-grid li > a,
 .og-grid li > a img {
 	border: none;
