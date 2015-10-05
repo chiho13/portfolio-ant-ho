@@ -1,0 +1,56 @@
+input[type="radio"],
+input[type="checkbox"] {
+  display:none;
+}
+
+input[type="radio"] + span:before,
+input[type="checkbox"] + span:before {
+  font-family: 'FontAwesome';
+  padding-top: 2px;
+	padding-right: 3px;
+  font-size: 18px;
+}
+
+input[type="radio"] + span:before {
+  content: "\f10c"; /* circle-blank */
+}
+
+input[type="radio"]:checked + span:before {
+  content: "\f111"; /* circle */
+}
+
+input[type="checkbox"] + span:before {
+  content: "\f096"; /* check-empty */
+	position: absolute;
+}
+
+input[type="checkbox"]:checked + span:before {
+  content: "\f046"; /* check */
+	position: absolute;
+}
+
+.checkbox-label {
+  padding-left: 18px;
+	margin: 0;
+}
+
+label i {
+  display: inline-block;
+  height: 25px;
+  position: relative;
+  top: 0px;
+  font-style: normal;
+  color: #BE2DBE;
+}
+
+label span {
+  display: inline-block;
+  margin-left: 5px;
+  line-height: 20px;
+  color: #BE2DBE;
+  font-size: 25px;
+}
+
+.radio {
+  font-size:18px;
+}

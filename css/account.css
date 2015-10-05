@@ -1,0 +1,361 @@
+/* my account stylesheet */
+
+body {
+
+	max-height:100%;
+}
+
+.data-item {
+
+	padding: 0 0 8px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #edeff0;
+}
+
+.form-footer {
+  margin-bottom: -10px;
+  width: 100%;
+  display: inline-block;
+}
+
+.data-item:before, .data-item:after {
+  content: " ";
+  display: table;
+}
+
+.data-item:after {
+  clear: both;
+}
+
+
+.btn-editaccount, .btn-savechanges{
+
+
+	box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  height: 44px;
+  position: relative;
+  line-height: 36px;
+  
+  outline: none;
+  padding: 0;
+  padding-right:5px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid #C308C9;
+  color: #C308C9;
+  width: 120px;
+  padding: none;
+  padding-top: 2px;
+  margin-top:10px;
+  margin-right: 10px;
+  box-shadow:none;
+}
+
+.btn-savechanges{
+
+  background-color:rgba(255, 255, 255, 0.7);
+  
+}
+
+
+.btn-primary {
+
+  background-color: rgba(255, 255, 255, 0.7);
+   border: 2px solid #C308C9;
+  color: #C308C9;
+  font-weight: 600;
+
+}
+
+
+.btn-editaccount:hover,
+.btn-editaccount:focus,
+.btn-savechanges:hover,
+.btn-savechanges.focus,
+.btn-primary:hover,
+.btn-primary.focus
+{
+    background-color:#C308C9;
+border: 2px solid #C308C9;
+  color: #fff;
+  padding:none;
+  box-shadow: none;
+ text-decoration: none;
+
+}
+
+.btn-changepassword{
+box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  height: 44px;
+  position: relative;
+  line-height: 36px;
+  
+  outline: none;
+  padding: 0;
+  padding-right:5px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 2px solid #aaa;
+  color: #777;
+  width: 150px;
+  padding: none;
+  padding-top: 2px;
+  margin-top:10px;
+  margin-right: 10px;
+  box-shadow:none;
+
+}
+
+.btn-changepassword:hover,
+.btn-changepassword:focus
+{
+    background-color:#aaa;
+border: 2px solid #bbb;
+  color: #fff;
+  padding:none;
+  box-shadow: none;
+  text-decoration: none
+ 
+
+}
+
+
+
+#edit-wrapper {
+    z-index: 1000;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+   /* margin-right: -250px;*/
+    overflow-x:hidden;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    opacity: 1;
+}
+
+#edit-wrapper.active {
+
+  left:0;
+  bottom: 0;
+    height: 100%;
+    -webkit-transition: all 0.4s ease-in 0.1s;
+    -moz-transition: all 0.4s ease-in 0.1s;
+    -ms-transition: all 0.4s ease-in 0.1s;
+    -o-transition: all 0.4s ease-in 0.1s;
+    transition: all 0.4s ease-in 0.1s;
+
+}
+
+textarea {
+  width: 100%;
+  padding: 11px 15px;
+  margin: 0 0 15px;
+  min-height: 155px;
+  display: block;
+  line-height: 1.5;
+  font-weight: normal;
+  -webkit-transition: height 0.4s, 0.2s;
+  transition: height 0.4s, 0.2s;
+}
+
+ h4 a{
+
+  color:#eee;
+ 
+  font-weight:600;
+  
+
+}
+
+h4 a:hover,
+h4 a:focus {
+
+  color: #fff;
+   text-decoration: none;
+}
+
+input[type='text'], 
+input[type='password'], 
+input[type='date'],
+ input[type='datetime-local'], 
+ input[type='month'], input[type='time'], 
+ input[type='week'], input[type='email'], 
+ input[type='number'], 
+ input[type='tel'], 
+ input[type='url'], 
+ input.text, input.email, 
+ input.password, textarea, select {
+  background: #e8ebed;
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  padding: 12px 15px;
+  outline: 0;
+  border: 2px solid #e8ebed;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  box-shadow: 0;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.edit-container{
+
+	 max-width: 95%;
+    padding: 40px 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 60px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    min-height:430px;
+}
+
+.chosen-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  zoom: 1;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+   user-select:none;
+ }
+
+ div.chosen-container ul.chosen-choices, div.chosen-container a.chosen-single {
+  background: #e8ebed;
+  border: 2px solid #e8ebed;
+  outline: none;
+  font-size: 14px;
+  padding-right: 40px;
+  height: 44px;
+  color: #5a6772;
+  box-shadow: none;
+  border-radius: 5px;
+  -webkit-transition: background 0.25s ease;
+  transition: background 0.25s ease;
+}
+
+
+.btn-input {
+   display: block;
+}
+ 
+.btn-input .btn.form-control {
+    text-align: left;
+}
+ 
+.btn-input .btn.form-control span:first-child {
+   left: 10px;
+   overflow: hidden;
+   position: absolute;
+   right: 25px;
+}
+ 
+.btn-input .btn.form-control .caret {
+   margin-top: -1px;
+   position: absolute;
+   right: 10px;
+   top: 50%;
+}
+
+
+
+@media screen and (min-width: 1023px) {
+
+.grid-25 {
+  float: left;
+  width: 25%;
+}
+
+.grid-75 {
+  float: left;
+  width: 75%;
+}
+
+.grid-100 {
+  clear: both;
+  width: 100%;
+}
+
+.grid-100:before, .grid-100:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.grid-100:after{
+
+	clear:both;
+}
+
+}
+
+
+@media (max-width:500px){
+
+  /*#edit-wrapper.active {
+
+    max-width: 100%;
+  }*/
+}

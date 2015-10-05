@@ -1,0 +1,143 @@
+.btn-followbrand {
+
+box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, width 0.3s ease, opacity 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  line-height: 36px;
+  
+  outline: none;
+  padding: 0;
+  padding-right:3px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #fff;
+  border: 2px solid #C308C9;
+  color: #C308C9;
+  width: 100px;
+  padding: none;
+  margin-top:10px;
+  box-shadow:none;
+  
+  height: 40px;
+}
+
+
+.btn-followbrand:hover,
+.btn-followbrand:focus,
+ .btn-followbrand.active{
+    background-color:#C308C9;
+border: 2px solid #C308C9;
+  color: #fff;
+  padding:none;
+  box-shadow: none;
+ 
+
+}
+
+
+.brand-list {
+
+  list-style: none;
+}
+
+.brand-list li {
+  margin-left: 20px
+}
+
+.grid-25 {
+  float: left;
+  
+}
+
+.grid-25 label {
+
+  font-size: 18px;
+  line-height: 56px;
+}
+
+.grid-75 {
+  float: right;
+  
+}
+
+.grid-100 {
+  clear: both;
+  width: 100%;
+}
+
+.grid-100:before, .grid-100:after {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.grid-100:after{
+
+  clear:both;
+}
+
+.brand-container{
+
+  max-height: 100%;
+     max-width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    /* just in case there no content*/
+    padding: 15px 15px 30px;
+    margin: 0 auto 10px;
+    margin-top: 20px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    
+}
+
+.container {
+  padding-right: 6px;
+  padding-left: 6px;
+
+  }
+
+  .avatarbrand{
+
+    width: 36px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  float: left;
+  margin: -2px 19px 0 0;
+  background: none;
+  position: relative;
+  left: 9px;
+  top: 12px;
+  }
+
+
+
